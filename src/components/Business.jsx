@@ -1,7 +1,7 @@
 import React from 'react'
 import {features} from '../constants'
 import styles, {layout} from '../style'
-import Button from './button'
+import Button from './Button'
 
 
 const FeatureCard = ({ icon, title, content, index}) => {
@@ -29,7 +29,7 @@ const Business = () => {
         <h2 className={styles.heading2}>Você faz os negócios, <br className="sm:block hidden"></br> e nós vamos cuidar do dinheiro.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Com o cartão de crédito certo, você pode melhorar sua vida financeira acumulando crédito, 
         ganhando recompensas e economizando dinheiro. Mas com centenas de cartões de crédito no mercado.</p>
-        <Button styles="mt-10"/>
+        
       </div>
       
       <div className={`${layout.sectionImg} flex-col`}>
